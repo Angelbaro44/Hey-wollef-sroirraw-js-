@@ -37,20 +37,20 @@
       border-radius: 2px;
     }
     
-    .bottom-border {
+    /* .bottom-border {
       border: 1px black solid;
       border-bottom: 2px black solid;
       height: 20px;
       padding: 0px;
       width: auto;
-    }
+    } */
     
     .box {
       background-color: #1d1e23;
       height: 70vh;
     }
     
-    .code {
+     .code {
       background-color: #1d1e23;
       color: white;
       display: inline;
@@ -59,6 +59,8 @@
     
     .examples {
       padding: 5vh;
+      text-align-last: center;
+    max-width: 50%;
     }
     
     .flex {
@@ -73,7 +75,6 @@
     }
     
     .instructions {
-      background-color: #000000;
       border: 1px black solid;
       border-bottom: 5px solid #36383F;
       box-shadow: 0 1px 1px black;
@@ -89,16 +90,10 @@
     }
     
     .side-border {
-      background-color: #36383F;
-      border-left: 1px solid rgba(255,255,255,0.1);
-      border-right: 1px solid rgba(0,0,0,0.4);
-      height: calc (80vh - 20px);
-      margin-top: 2px;
-      max-width: 20px;
       padding: 10px;
-    }
+    } 
     
     .string {
       color: #92a084;
     }
-    
+     
