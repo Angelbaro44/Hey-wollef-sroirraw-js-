@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="index-stylesheet.css">
+      <title>Hey wollef sroirraw!</title>
+</head>
+<body>
+      
+<div class="instructions">
+      <p>Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.</p>
+    </div>
+    <div class="flex">
+      <div class ="side-border"></div>
+      <div class="box examples">
+        <div class="section-header">
+          Examples:
+        </div>
+        <br>
+        <span class="code"><span class="function">spinWords</span>( <span class="string">"Hey fellow warriors"</span> )</span> => returns "Hey wollef sroirraw"
+        <br>
+        <span class="code"><span class="function">spinWords</span>( <span class="string">"This is a test"</span> )</span> => returns "This is a test"
+    
+        <br>
+        <span class="code"><span class="function">spinWords</span>( <span class="string">"This is another test"</span> )</span> => returns "This is rehtona test"
+      </div>
+    
+      <div class ="side-border"></div>
+    
+      <div class="box output">
+        <p>Your turn:</p>
+        <br>
+        <span class="code function">spinWords( <span class="string">"</span>
+          <input type="textarea" id="str" placeholder="enter a string here"><span class="string">"</span> )</span>
+        <button id="submit">Submit</button>
+        <button type="reset" id="reset" >Reset</button>
+        <br>
+        <p>=> </p>
+        <span id="output"></span>
+      </div>
+      <div class ="side-border"></div>
+    </div>
+    <div class="bottom-border"></div>
+</body>
+</html>

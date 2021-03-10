@@ -1,0 +1,104 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    
+    body {
+      background-color: #36383F;
+      color: white;
+      font: 15px Monaco, MonoSpace;
+      height: 100vh;
+    }
+    
+    div {
+      display: block;
+    }
+    
+    input {
+      background-color: #1d1e23;
+      border: none;
+      color: #92a084;
+      font: 15px/1.5 Monaco, MonoSpace;
+      margin-left: 0;
+      padding: 0;
+    }
+    
+    button {
+      background-color: #000000;
+      border: 2px solid #36383F;
+      border-radius: 2px;
+      color: white;
+      padding: 5px 10px;
+    }
+    
+    button:hover {
+      background-color: #4e505a;
+      border: 2px solid none;
+      border-radius: 2px;
+    }
+    
+    .bottom-border {
+      border: 1px black solid;
+      border-bottom: 2px black solid;
+      height: 20px;
+      padding: 0px;
+      width: auto;
+    }
+    
+    .box {
+      background-color: #1d1e23;
+      height: 70vh;
+    }
+    
+    .code {
+      background-color: #1d1e23;
+      color: white;
+      display: inline;
+      width: auto;
+    }
+    
+    .examples {
+      padding: 5vh;
+    }
+    
+    .flex {
+      display: flex;
+      height: calc (80% - 20px);
+      padding: 0;
+      width: 100vw;
+    }
+    
+    .function {
+      color: #7f98be;
+    }
+    
+    .instructions {
+      background-color: #000000;
+      border: 1px black solid;
+      border-bottom: 5px solid #36383F;
+      box-shadow: 0 1px 1px black;
+      font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+      min-height: 20vh;
+      padding: 5vh;
+      width: auto;
+    }
+    
+    .output {
+      padding: 5vh;
+      width: 50%;
+    }
+    
+    .side-border {
+      background-color: #36383F;
+      border-left: 1px solid rgba(255,255,255,0.1);
+      border-right: 1px solid rgba(0,0,0,0.4);
+      height: calc (80vh - 20px);
+      margin-top: 2px;
+      max-width: 20px;
+      padding: 10px;
+    }
+    
+    .string {
+      color: #92a084;
+    }
+    
